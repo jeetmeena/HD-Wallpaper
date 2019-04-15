@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:layout_margin="2dp"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Somthing"
+        android:id="@+id/testText"
+        android:textColor="@color/colorAccent"
+        android:autoSizeMinTextSize="25dp"
+        />
+  <LinearLayout
+      android:layout_width="120dp"
+      android:layout_height="170dp"
+      android:orientation="horizontal"
+      android:id="@+id/line1">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/adventure1"
+         />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView3"
+        android:layout_weight="0.5"
+        android:visibility="gone"
+        />
+
+  </LinearLayout>
+
+  <ImageButton
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:id="@+id/download"
+      android:layout_margin="5dp"
+      android:layout_alignTop="@id/line1"
+      android:layout_alignEnd="@id/line1"/>
+
+  <ImageButton
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:id="@+id/faviret"
+      android:layout_alignBottom="@id/line1"
+      android:layout_alignEnd="@id/line1"/>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Theme_dar1">#6C6F81</color>
+    <color name="Theme_dar2">#5A5D71</color>
+    <color name="Theme_dar3">#484B61</color>
+    <color name="Theme_dar4">#232535</color>
+    <color name="Theme_dar5">#1E202D</color>
+    <color name="Theme_dar6">#191B26</color>
+    <color name="Theme_dar7">#14161E</color>
+
+
+</resources>
